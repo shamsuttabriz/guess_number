@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;300;400;500;600;700;800&family=Righteous&display=swap');
+
+
+
+
+.guess-number {
+    background-color: #2e2e2e;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding: 20px 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.guess-number h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Righteous', cursive;
+    color: #00ff91;
+}
+.guess-number h3 {
+    font-family: 'Gluten', cursive;
+    letter-spacing: 1px;
+}
+
+.guess-number .guess-value{
+    width: 450px;
+    margin: auto;
+}
+
+.guess-number .guess-value input {
+    width: 280px;
+    height: 32px;
+    padding: 5px 5px 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 15px 2px 2px 15px;
+    outline: 0;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.guess-number .guess-value input:focus {
+    box-shadow: -2px 4px 10px #fff;
+}
+
+.guess-number .guess-value .btn {
+    width: 80px;
+    height: 44px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #00edff;
+    border-radius: 2px 15px 15px 2px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #00edff;
+    color: #000;
+}
+
+.guess-number .guess-value ul li {
+    list-style: none;
+    border: 1px solid #00edff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 26px;
+    width: 325px;
+    margin: 5px 0;
+}
+
+
+.check {
+    display: none;
+}
